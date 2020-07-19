@@ -4,7 +4,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-    publicPath: '/',
+    publicPath: '', //一级目录空串 二级目录 /dist/
     devServer: {
         host: '127.0.0.1',
         port: 8080,
